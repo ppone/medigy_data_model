@@ -36,5 +36,4 @@ class Person(Party):
     emergency_contact_relation = db.StringProperty()
     doctor = db.ListProperty(db.Key)
     #personal medical history
-    
     personalmedicalhistory=photo = db.Blob
